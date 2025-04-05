@@ -23,8 +23,8 @@ h2{
 text-shadow: black;
 background-color: rgb(221, 228, 233);
 }
-body{
-    background-image: url('casa.jpg');
+.imagen1{
+    background-image: url('/imagenes/casa.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -73,7 +73,7 @@ nav{
     width: 50%;
     padding: 10px;
    }
-    .fiesta{
+    .fiestas{
         
         background-color: rgb(146, 215, 255);
     }
@@ -94,3 +94,30 @@ nav{
     
 
  }
+.imagen2{
+    background-image: url('https://media.viajando.travel/p/e3d24bc1d0b534eaf055e7f66fe7dd09/adjuntos/236/imagenes/000/576/0000576112/1200x0/smart/semana-santa-tucuman-el-patrimonio-del-museo-esta-integrado-objetos-del-periodo-colonial-las-guerras-la-independencia-y-del-siglo-xix.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-position: center;
+    }
+.imagen3{
+    background-image: url(/imagenes/imagen3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+.formu{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+     
+}
+.fiesta{ 
+    font-weight: bold;
+
+}
